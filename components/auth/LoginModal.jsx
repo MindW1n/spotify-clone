@@ -15,7 +15,7 @@ export default function LoginModal({isOpen, setIsOpen, defaultType}) {
 					<motion.div {...fadeInOut} className="fixed top-0 left-0 w-screen h-screen opacity-50 bg-black"/>
 					<div className="fixed top-0 left-0 w-screen h-screen flex items-center justify-center">
 						<div onClick={() => setIsOpen(false)} className="w-full h-full z-[1]"/>
-						<motion.div {...scaleInOut} className="w-96 max-h-96 absolute rounded-3xl bg-neutral-800 shadow-xl p-4 opacity-100 z-[2] overflow-y-auto no-scrollbar">
+						<motion.div {...scaleInOut} className="w-80 max-h-96 absolute rounded-3xl bg-neutral-800 shadow-xl p-4 opacity-100 z-[2] overflow-y-auto no-scrollbar">
 							<div className="flex flex-col">
 								<div className="flex flex-row justify-between">
 									<h3 className="text-2xl font-extrabold text-white ml-5">
