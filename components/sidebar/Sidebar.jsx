@@ -1,5 +1,5 @@
-import Navigation from "./navigation/main"
-import Library from "./library"
+import Navigation from "./navigation/Navigation"
+import Library from "./Library"
 export default function Sidebar() {
 	return (
 		<div className="flex h-full">

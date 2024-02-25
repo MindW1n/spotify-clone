@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap");
 html,
 body,
 :root {
@@ -8,4 +9,16 @@ body,
 	width: 100%;
 	background-color: black;
 	color-scheme: dark;
+	font-family: "Arimo", sans-serif;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+		display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+		-ms-overflow-style: none;	/* IE and Edge */
+		scrollbar-width: none;	/* Firefox */
 }
